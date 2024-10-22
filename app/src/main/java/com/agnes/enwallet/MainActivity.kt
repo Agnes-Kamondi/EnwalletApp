@@ -23,67 +23,67 @@ class MainActivity : AppCompatActivity() {
             title = "Salary",
             amount = "Kes 4000",
             date = "1 july 2024",
-            imageResource = R.drawable.expense_trx
+            isIncome = true
         )
         val transaction2 = TransactionItem(
             title = "Electricity",
             amount = "Kes 1500",
             date = "2 july 2024",
-            imageResource = R.drawable.income_trx
+            isIncome = false
         )
         val transaction3 = TransactionItem(
             title = "Rent",
             amount = "Kes 10000",
             date = "5 july 2024",
-            imageResource = R.drawable.expense_trx
+            isIncome = false
         )
         val transaction4 = TransactionItem(
             title = "Dividends",
             amount = "Kes 10000",
             date = "5 july 2024",
-            imageResource = R.drawable.income_trx
+            isIncome = true
         )
         val transaction5 = TransactionItem(
             title = "Rent",
             amount = "Kes 10000",
             date = "5 july 2024",
-            imageResource = R.drawable.expense_trx
+            isIncome = false
         )
         val transaction6 = TransactionItem(
             title = "Rent",
             amount = "Kes 10000",
             date = "5 july 2024",
-            imageResource = R.drawable.income_trx
+            isIncome = false
         )
         val transaction7 = TransactionItem(
             title = "Rent",
             amount = "Kes 10000",
             date = "5 july 2024",
-            imageResource = R.drawable.expense_trx
+            isIncome = false
         )
         val transaction8 = TransactionItem(
             title = "Rent",
             amount = "Kes 10000",
             date = "5 july 2024",
-            imageResource = R.drawable.income_trx
+            isIncome = false
         )
         val transaction9 = TransactionItem(
             title = "Rent",
             amount = "Kes 10000",
             date = "5 july 2024",
-            imageResource = R.drawable.expense_trx
+            isIncome = false
         )
         val transaction10 = TransactionItem(
             title = "Rent",
             amount = "Kes 10000",
             date = "5 july 2024",
-            imageResource = R.drawable.income_trx
+            isIncome = false
         )
         val transaction11 = TransactionItem(
             title = "Rent",
             amount = "Kes 10000",
             date = "5 july 2024",
-            imageResource = R.drawable.expense_trx
+            isIncome = false
         )
 
         val transactionList = listOf(transaction1, transaction2, transaction3, transaction4, transaction5, transaction6, transaction7, transaction8, transaction9, transaction10,transaction11)

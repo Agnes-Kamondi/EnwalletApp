@@ -4,6 +4,6 @@ data class TransactionItem(
 var title: String,
 var amount: String,
 var date: String,
-var imageResource: Int
+var isIncome : Boolean
 )
 
